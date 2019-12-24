@@ -16,7 +16,12 @@ class SplashLinksMenu extends Component {
       listItems = this.props.listItems.map((node, index) => {
         return (
           <li key={index}>
-            <a href={node.href} title={node.title}>
+            <a
+              href={node.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={node.title}
+            >
               {node.linkText}
             </a>
           </li>
