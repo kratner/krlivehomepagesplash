@@ -1,3 +1,5 @@
+View live demo at https://kratner.github.io/krlivehomepagesplash.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

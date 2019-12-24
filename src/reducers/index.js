@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-//import mediaDevices from "./mediaDeviceReducer";
+import menuReducer from "./menuReducer";
 
 const initialState = {
   count: 0
@@ -26,5 +26,8 @@ const rootReducer = (state = initialState, action) => {
       return state;
   }
 };
-const reducer = combineReducers({ rootReducer: rootReducer });
+const reducer = combineReducers({
+  rootReducer: rootReducer,
+  menuReducer: menuReducer
+});
 export default reducer;
