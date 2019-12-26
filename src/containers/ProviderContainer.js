@@ -6,11 +6,12 @@ import SplashBackground from "../components/SplashBackground";
 import reducer from "../reducers/index";
 import { KeithRatnerLogo } from "../components/KeithRatnerLogo";
 import SplashLinksMenu from "../components/SplashLinksMenu";
+import AnimatedOverlay from "../components/AnimatedOverlay";
 //import { getData } from "../dataaccess/SplashLinksData";
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
-console.log(store.getState());
+// console.log(store.getState());
 
 /*
 
@@ -25,6 +26,7 @@ getData(handleData);
 const ProviderContainer = () => (
   <Provider store={store}>
     <SplashBackground id="splashbackground" className="splashbackground" />
+    <AnimatedOverlay id="animatedoverlay" numStars="25" />
     <KeithRatnerLogo
       id="krlogo"
       svgid="krlogosvg"
