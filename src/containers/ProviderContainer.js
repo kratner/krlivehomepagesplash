@@ -7,6 +7,8 @@ import reducer from "../reducers/index";
 import { KeithRatnerLogo } from "../components/KeithRatnerLogo";
 import SplashLinksMenu from "../components/SplashLinksMenu";
 import AnimatedOverlay from "../components/AnimatedOverlay";
+import ParticleField from "../webgl/ParticleField";
+import Credits from "../components/Credits";
 //import { getData } from "../dataaccess/SplashLinksData";
 
 const store = createStore(reducer, applyMiddleware(thunk));
@@ -27,6 +29,7 @@ const ProviderContainer = () => (
   <Provider store={store}>
     <SplashBackground id="splashbackground" className="splashbackground" />
     <AnimatedOverlay id="animatedoverlay" numStars="25" />
+    <ParticleField />
     <KeithRatnerLogo
       id="krlogo"
       svgid="krlogosvg"
@@ -34,6 +37,7 @@ const ProviderContainer = () => (
       delayL="1500"
     />
     <SplashLinksMenu id="splashlinksmenu" />
+    <Credits id="credits" />
   </Provider>
 );
 
