@@ -1,26 +1,25 @@
 import React from "react";
 import styled from "styled-components";
 
-const CreditsContainer = styled.div`
-  position: absolute;
-  bottom: 0.5em;
-  right: 1em;
-  font-size: 0.5em;
-  text-align: right;
-  & ul {
-    list-style: none;
-  }
-  & a {
-    transition: 0.25s;
-    text-decoration: none;
-    color: #00ffff;
-    &:hover {
-      color: #fff200;
-    }
-  }
-`;
-
 export default props => {
+  const CreditsContainer = styled.div`
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+    font-size: 0.5em;
+    text-align: ${props.textAlign};
+    & ul {
+      list-style: none;
+    }
+    & a {
+      transition: 0.25s;
+      text-decoration: none;
+      color: #00ffff;
+      &:hover {
+        color: #fff200;
+      }
+    }
+  `;
   const credits = [
     {
       href: "https://github.com/tim-soft/react-particles-webgl#readme",

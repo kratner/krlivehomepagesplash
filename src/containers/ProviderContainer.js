@@ -37,7 +37,7 @@ const ProviderContainer = () => (
       delayL="1500"
     />
     <SplashLinksMenu id="splashlinksmenu" />
-    <Credits id="credits" />
+    <Credits id="credits" textAlign="right" />
   </Provider>
 );
 
