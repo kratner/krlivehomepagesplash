@@ -16,7 +16,6 @@ const handleData = (data, callback) => {
 };
 
 export const getData = callback => {
-  console.log(qryPostsFromSplashLinksCategory);
   fetch(qryPostsFromSplashLinksCategory)
     .then(data => data.json())
     .then(data => {
