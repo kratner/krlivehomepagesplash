@@ -30,7 +30,7 @@ class SocialLinksMenu extends Component {
             title={node.title}
             key={index}
           >
-            <SocialIcons iconName={node.icon} />
+            <SocialIcons iconName={node.icon} iconSize="1.25em" />
           </a>
           //</div>
         );
