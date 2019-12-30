@@ -68,10 +68,10 @@ export default props => {
               gradientTransform="matrix(0 -1.982 1.8439 0 -1749.7347 -3352.5952)"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0" style="stop-color:#FFDD55" />
-              <stop offset="0.1" style="stop-color:#FFDD55" />
-              <stop offset="0.5" style="stop-color:#FF543E" />
-              <stop offset="1" style="stop-color:#C837AB" />
+              <stop offset="0" style={{ stopColor: "#FFDD55" }} />
+              <stop offset="0.1" style={{ stopColor: "#FFDD55" }} />
+              <stop offset="0.5" style={{ stopColor: "#FF543E" }} />
+              <stop offset="1" style={{ stopColor: "#C837AB" }} />
             </radialGradient>
             <path
               fill="url(#SVGID_1_)"
@@ -92,9 +92,12 @@ export default props => {
               gradientTransform="matrix(0.1739 0.8687 -3.5818 0.7172 1616.3136 573.9915)"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0" style="stop-color:#3771C8" />
-              <stop offset="0.128" style="stop-color:#3771C8" />
-              <stop offset="1" style="stop-color:#6600FF;stop-opacity:0" />
+              <stop offset="0" style={{ stopColor: "#3771C8" }} />
+              <stop offset="0.128" style={{ stopColor: "#3771C8" }} />
+              <stop
+                offset="1"
+                style={{ stopColor: "#6600FF", stopOpacity: "0" }}
+              />
             </radialGradient>
             <path
               fill="url(#SVGID_2_)"
