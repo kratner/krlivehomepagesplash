@@ -9,6 +9,7 @@ import SplashLinksMenu from "../components/SplashLinksMenu";
 import AnimatedOverlay from "../components/AnimatedOverlay";
 import ParticleField from "../webgl/ParticleField";
 import Credits from "../components/Credits";
+import SocialLinksMenu from "../components/SocialLinksMenu";
 //import { getData } from "../dataaccess/SplashLinksData";
 
 const store = createStore(reducer, applyMiddleware(thunk));
@@ -37,6 +38,7 @@ const ProviderContainer = () => (
       delayL="1500"
     />
     <SplashLinksMenu id="splashlinksmenu" />
+    <SocialLinksMenu id="sociallinksmenu" />
     <Credits id="credits" textAlign="right" />
   </Provider>
 );

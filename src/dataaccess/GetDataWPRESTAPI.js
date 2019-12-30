@@ -11,5 +11,6 @@ export const qryPostsFromLinksCategory = `${appQueryUrl}name=links`;
 export const qryPostsFromPrintsCategory = `${appQueryUrl}name=prints`;
 export const qryPostsFromOEDistributionCategory = `${appOEQueryUrl}name=code`;
 export const qryPostsFromSplashLinksCategory = `${appQueryUrl}name=splashlinks`;
+export const qryPostsFromSocialLinksCategory = `${appQueryUrl}name=sociallinks`;
 
 //https://keithratner.live/wp-json/wpcms/v1/posts-by-category?name=prints

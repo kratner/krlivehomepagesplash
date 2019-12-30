@@ -45,9 +45,9 @@ class SplashLinksMenu extends Component {
 
 const mapStateToProps = state => {
   return {
-    listItems: state.menuReducer.listItems,
-    hasListItems: state.menuReducer.hasListItems,
-    loading: state.menuReducer.loading
+    listItems: state.splashLinks.listItems,
+    hasListItems: state.splashLinks.hasListItems,
+    loading: state.splashLinks.loading
   };
 };
 
