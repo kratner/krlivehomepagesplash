@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/krlivehomepagesplash/static/css/main.58a40fcf.chunk.css",
+    "main.css": "/krlivehomepagesplash/static/css/main.c953fda3.chunk.css",
     "main.js": "/krlivehomepagesplash/static/js/main.f38ee72b.chunk.js",
     "main.js.map": "/krlivehomepagesplash/static/js/main.f38ee72b.chunk.js.map",
     "runtime-main.js": "/krlivehomepagesplash/static/js/runtime-main.ea64e099.js",
@@ -8,15 +8,15 @@
     "static/js/2.7a7d4fc1.chunk.js": "/krlivehomepagesplash/static/js/2.7a7d4fc1.chunk.js",
     "static/js/2.7a7d4fc1.chunk.js.map": "/krlivehomepagesplash/static/js/2.7a7d4fc1.chunk.js.map",
     "index.html": "/krlivehomepagesplash/index.html",
-    "precache-manifest.5a11b81a728fe44dea44ed0f6cffc927.js": "/krlivehomepagesplash/precache-manifest.5a11b81a728fe44dea44ed0f6cffc927.js",
+    "precache-manifest.75e9ffbdbc16db6690635ce59b4b68ad.js": "/krlivehomepagesplash/precache-manifest.75e9ffbdbc16db6690635ce59b4b68ad.js",
     "service-worker.js": "/krlivehomepagesplash/service-worker.js",
-    "static/css/main.58a40fcf.chunk.css.map": "/krlivehomepagesplash/static/css/main.58a40fcf.chunk.css.map",
+    "static/css/main.c953fda3.chunk.css.map": "/krlivehomepagesplash/static/css/main.c953fda3.chunk.css.map",
     "static/js/2.7a7d4fc1.chunk.js.LICENSE": "/krlivehomepagesplash/static/js/2.7a7d4fc1.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.ea64e099.js",
     "static/js/2.7a7d4fc1.chunk.js",
-    "static/css/main.58a40fcf.chunk.css",
+    "static/css/main.c953fda3.chunk.css",
     "static/js/main.f38ee72b.chunk.js"
   ]
 }
