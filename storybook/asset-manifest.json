@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/krlivehomepagesplash/main.805011ec7aea01acea22.bundle.js",
+    "main.js.map": "/krlivehomepagesplash/main.805011ec7aea01acea22.bundle.js.map",
+    "runtime~main.js": "/krlivehomepagesplash/runtime~main.805011ec7aea01acea22.bundle.js",
+    "runtime~main.js.map": "/krlivehomepagesplash/runtime~main.805011ec7aea01acea22.bundle.js.map",
+    "vendors~main.js": "/krlivehomepagesplash/vendors~main.805011ec7aea01acea22.bundle.js",
+    "vendors~main.js.map": "/krlivehomepagesplash/vendors~main.805011ec7aea01acea22.bundle.js.map",
+    "iframe.html": "/krlivehomepagesplash/iframe.html",
+    "precache-manifest.36de8ba5bb7e7ac20fbafcff76626a88.js": "/krlivehomepagesplash/precache-manifest.36de8ba5bb7e7ac20fbafcff76626a88.js",
+    "service-worker.js": "/krlivehomepagesplash/service-worker.js"
+  },
+  "entrypoints": [
+    "runtime~main.805011ec7aea01acea22.bundle.js",
+    "vendors~main.805011ec7aea01acea22.bundle.js",
+    "main.805011ec7aea01acea22.bundle.js"
+  ]
+}
