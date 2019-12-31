@@ -10,7 +10,14 @@ const IconContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: #ffffff25;
+  padding: 0.25em;
+  border-radius: 1em 0 0 1em;
+  box-shadow: 0.1em 0.2em 0.15em 0.1em #000000;
   width: 100%;
+  @media (max-width: 640px) {
+    border-radius: 0;
+  }
 `;
 
 class SocialLinksMenu extends Component {

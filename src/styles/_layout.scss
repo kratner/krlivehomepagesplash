@@ -76,15 +76,26 @@ svg#krlogosvg {
   position: absolute;
   bottom: 3em;
   right: 0;
-  display: flex;
-  flex-direction: row;
   width: 65%;
   a {
-    transition: 0.5s;
+    transition: 0.15s;
     opacity: 0.5;
-    margin-bottom: 0.5em;
+    border-bottom-width: 0.15em;
+    border-bottom-style: solid;
+    border-bottom-color: #0000ff00;
+    padding-top: 0.15em;
     &:hover {
       opacity: 1;
+      outline: 0.15em solid #fff20085;
+      outline-offset: 0.25em;
+      outline-style: outset;
+      border-bottom-color: #0000ffff;
     }
+  }
+  @media (max-width: 640px) {
+    width: 100%;
+  }
+  svg {
+    filter: drop-shadow(0.15em 0.15em 0.1em #000000);
   }
 }
