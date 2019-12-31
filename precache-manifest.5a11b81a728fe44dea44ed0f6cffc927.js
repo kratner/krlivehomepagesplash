@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "481a7aa946680888c4d2f2e1339cccac",
+    "revision": "13d754d9661b0bd9a5d7bff25d060f1f",
     "url": "/krlivehomepagesplash/index.html"
   },
   {
-    "revision": "ad0d83a1f779e9f99a6f",
-    "url": "/krlivehomepagesplash/static/css/main.fd11d000.chunk.css"
+    "revision": "60999fa14a023cc1b0c5",
+    "url": "/krlivehomepagesplash/static/css/main.58a40fcf.chunk.css"
   },
   {
     "revision": "7e232129e03149a3c924",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/krlivehomepagesplash/static/js/2.7a7d4fc1.chunk.js.LICENSE"
   },
   {
-    "revision": "ad0d83a1f779e9f99a6f",
-    "url": "/krlivehomepagesplash/static/js/main.54b3bcf8.chunk.js"
+    "revision": "60999fa14a023cc1b0c5",
+    "url": "/krlivehomepagesplash/static/js/main.f38ee72b.chunk.js"
   },
   {
     "revision": "ffc39bf3ae146efc9bcc",
