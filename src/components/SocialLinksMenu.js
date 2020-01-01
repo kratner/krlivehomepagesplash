@@ -2,8 +2,10 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { getSocialLinks } from "../actions/SocialLinksActions";
 import styled from "styled-components";
-import { CircularProgress } from "@material-ui/core";
+//import { CircularProgress } from "@material-ui/core";
+
 import SocialIcons from "./SocialIcons";
+import DescriptiveLoader from "./DescriptiveLoader";
 
 const SocialLinksMenuContainer = styled.div``;
 const IconContainer = styled.div`
@@ -50,9 +52,13 @@ class SocialLinksMenu extends Component {
     return (
       <SocialLinksMenuContainer id={this.props.id}>
         {this.props.loading ? (
-          <div>
-            <CircularProgress />
-          </div>
+          <IconContainer>
+            <DescriptiveLoader
+              message="Loading Social Links"
+              messageColor="#FFF20075"
+              animatedMessage="..."
+            />
+          </IconContainer>
         ) : (
           ""
         )}
