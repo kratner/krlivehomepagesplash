@@ -27,21 +27,25 @@ class SocialLinksMenu extends Component {
   render() {
     let listItems = "";
     if (this.props.hasListItems) {
-      listItems = this.props.listItems.map((node, index) => {
-        return (
-          //<div key={index}>
-          <a
-            href={node.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            title={node.title}
-            key={index}
-          >
-            <SocialIcons iconName={node.icon} iconSize="1.25em" />
-          </a>
-          //</div>
-        );
-      });
+      listItems = this.props.listItems
+        .sort((a, b) => {
+          return a.weight > b.weight ? 1 : -1;
+        })
+        .map((node, index) => {
+          return (
+            //<div key={index}>
+            <a
+              href={node.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={node.title}
+              key={index}
+            >
+              <SocialIcons iconName={node.icon} iconSize="1.25em" />
+            </a>
+            //</div>
+          );
+        });
     }
     return (
       <SocialLinksMenuContainer id={this.props.id}>

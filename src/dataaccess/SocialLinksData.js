@@ -7,7 +7,8 @@ const handleData = (data, callback) => {
       href: element.acf.href,
       title: element.acf.title,
       //linkText: element.acf.splashlinklinktext,
-      icon: element.acf.icon
+      icon: element.acf.icon,
+      weight: element.acf.social_link_weight
     });
   });
   callback({
