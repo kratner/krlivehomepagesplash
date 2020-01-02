@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { getSplashLinks } from "../actions/SplashLinksActions";
+//import { getSplashLinks } from "../actions/SplashLinksActions";
 import styled from "styled-components";
 import { CircularProgress } from "@material-ui/core";
 
 const SplashLinksMenuContainer = styled.div``;
 
 class SplashLinksMenu extends Component {
+  /*
   componentDidMount() {
     this.props.dispatch(getSplashLinks());
   }
+  */
   render() {
     let listItems = "";
     if (this.props.hasListItems) {
@@ -45,9 +47,9 @@ class SplashLinksMenu extends Component {
 
 const mapStateToProps = state => {
   return {
-    listItems: state.splashLinks.listItems,
-    hasListItems: state.splashLinks.hasListItems,
-    loading: state.splashLinks.loading
+    listItems: state.links.splashListItems,
+    hasListItems: state.links.hasListItems,
+    loading: state.links.loading
   };
 };
 

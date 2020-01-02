@@ -10,7 +10,7 @@ import AnimatedOverlay from "../components/AnimatedOverlay";
 import ParticleField from "../webgl/ParticleField";
 import Credits from "../components/Credits";
 import SocialLinksMenu from "../components/SocialLinksMenu";
-//import { getData } from "../dataaccess/SplashLinksData";
+import { getLinks } from "../actions/LinksActions";
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
@@ -25,6 +25,8 @@ const handleData = data => {
 getData(handleData);
 
 */
+
+store.dispatch(getLinks());
 
 const ProviderContainer = () => (
   <Provider store={store}>

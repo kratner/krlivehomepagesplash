@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { getSocialLinks } from "../actions/SocialLinksActions";
+//import { getSocialLinks } from "../actions/SocialLinksActions";
 import styled from "styled-components";
 //import { CircularProgress } from "@material-ui/core";
 
@@ -23,9 +23,11 @@ const IconContainer = styled.div`
 `;
 
 class SocialLinksMenu extends Component {
+  /*
   componentDidMount() {
     this.props.dispatch(getSocialLinks());
   }
+  */
   render() {
     let listItems = "";
     if (this.props.hasListItems) {
@@ -74,9 +76,9 @@ class SocialLinksMenu extends Component {
 
 const mapStateToProps = state => {
   return {
-    listItems: state.socialLinks.listItems,
-    hasListItems: state.socialLinks.hasListItems,
-    loading: state.socialLinks.loading
+    listItems: state.links.socialListItems,
+    hasListItems: state.links.hasListItems,
+    loading: state.links.loading
   };
 };
 
