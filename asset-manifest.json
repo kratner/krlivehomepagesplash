@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/krlivehomepagesplash/static/css/main.2d55c60d.chunk.css",
-    "main.js": "/krlivehomepagesplash/static/js/main.186e0896.chunk.js",
-    "main.js.map": "/krlivehomepagesplash/static/js/main.186e0896.chunk.js.map",
+    "main.css": "/krlivehomepagesplash/static/css/main.30f94b56.chunk.css",
+    "main.js": "/krlivehomepagesplash/static/js/main.6f09c2c1.chunk.js",
+    "main.js.map": "/krlivehomepagesplash/static/js/main.6f09c2c1.chunk.js.map",
     "runtime-main.js": "/krlivehomepagesplash/static/js/runtime-main.ea64e099.js",
     "runtime-main.js.map": "/krlivehomepagesplash/static/js/runtime-main.ea64e099.js.map",
     "static/js/2.923a8b45.chunk.js": "/krlivehomepagesplash/static/js/2.923a8b45.chunk.js",
     "static/js/2.923a8b45.chunk.js.map": "/krlivehomepagesplash/static/js/2.923a8b45.chunk.js.map",
     "index.html": "/krlivehomepagesplash/index.html",
-    "precache-manifest.5ef94b43a491189647d713868a2481d3.js": "/krlivehomepagesplash/precache-manifest.5ef94b43a491189647d713868a2481d3.js",
+    "precache-manifest.64e39f8894646ccaeebffe175d57f841.js": "/krlivehomepagesplash/precache-manifest.64e39f8894646ccaeebffe175d57f841.js",
     "service-worker.js": "/krlivehomepagesplash/service-worker.js",
-    "static/css/main.2d55c60d.chunk.css.map": "/krlivehomepagesplash/static/css/main.2d55c60d.chunk.css.map",
+    "static/css/main.30f94b56.chunk.css.map": "/krlivehomepagesplash/static/css/main.30f94b56.chunk.css.map",
     "static/js/2.923a8b45.chunk.js.LICENSE": "/krlivehomepagesplash/static/js/2.923a8b45.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.ea64e099.js",
     "static/js/2.923a8b45.chunk.js",
-    "static/css/main.2d55c60d.chunk.css",
-    "static/js/main.186e0896.chunk.js"
+    "static/css/main.30f94b56.chunk.css",
+    "static/js/main.6f09c2c1.chunk.js"
   ]
 }
