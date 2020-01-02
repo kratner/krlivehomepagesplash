@@ -31,9 +31,10 @@ class SocialLinksMenu extends Component {
   render() {
     let listItems = "";
     if (this.props.hasListItems) {
+      console.log(this.props.listItems);
       listItems = this.props.listItems
         .sort((a, b) => {
-          return a.weight > b.weight ? 1 : -1;
+          return parseInt(a.weight) > parseInt(b.weight) ? 1 : -1;
         })
         .map((node, index) => {
           return (
